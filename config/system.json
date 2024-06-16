@@ -1,4 +1,26 @@
 {
     "$schema": "https://raw.githubusercontent.com/onesoft-sudo/sudobot/main/config/schema/system.json",
-    "system_admins": ["owner_id"]
+    "emojis": {},
+    "sync_emojis": false,
+    "system_admins": [
+        "owner_id"
+    ],
+    "disabled_commands": [],
+    "restart_exit_code": 1,
+    "commands": {
+        "mention_prefix": true,
+        "groups": {}
+    },
+    "enable_file_filter": false,
+    "default_permissions_mode": "check",
+    "api": {
+        "enabled": true,
+        "server_status": "operational",
+        "server_status_started_at": "2024-06-16T19:16:52.020Z"
+    },
+    "extensions": {
+        "default_mode": "enable_all"
+    },
+    "sync_permission_managers_on_boot": false,
+    "debug_mode": false
 }

@@ -60,7 +60,7 @@
     "pm2": "^5.3.1",
     "reflect-metadata": "^0.1.13",
     "semver": "^7.5.4",
-    "sharp": "^0.33.2",
+    "sharp": "^0.33.4",
     "socket.io": "^4.7.2",
     "tar": "^6.2.0",
     "tesseract.js": "^5.0.4",

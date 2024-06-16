@@ -138,7 +138,7 @@ export default class AICommand extends Command {
                         },
                         {
                             role: "model",
-                            parts: [{ text: "I'm SudoBot, a Discord Moderation Bot." }]
+                            parts: [{ text: "I'm Pseudo, a Discord Moderation Bot." }]
                         }
                     ]
                 });
@@ -192,7 +192,7 @@ export default class AICommand extends Command {
                             {
                                 role: "system",
                                 content:
-                                    "You are a Discord Moderation bot. Your name is SudoBot. You were built at OSN, by open source developers."
+                                    "You are a Discord Moderation bot. Your name is Pseudo. You were built at OSN, by open source developers."
                             },
                             { role: "user", content: prompt }
                         ]
@@ -268,7 +268,7 @@ export default class AICommand extends Command {
 
                 const completion = await this.openai!.chat.completions.create({
                     messages: [
-                        { role: "system", content: "You're SudoBot, a Discord Moderation Bot." },
+                        { role: "system", content: "You're Pseudo, a Discord Moderation Bot." },
                         {
                             role: "user",
                             content: prompt

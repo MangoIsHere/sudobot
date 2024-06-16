@@ -1,4 +1,21 @@
 {
     "$schema": "https://raw.githubusercontent.com/onesoft-sudo/sudobot/main/config/schema/config.json",
-    "guild_id": {}
+    "949538212831985746": {
+        "prefix": "$",
+        "debug_mode": false,
+        "commands": {
+            "mention_prefix": true,
+            "bean_safe": [],
+            "shot_safe": [],
+            "fakeban_safe": [],
+            "echo_mentions": false,
+            "moderation_command_behaviour": "default",
+            "rerun_on_edit": false,
+            "default_joke_type": "random"
+        },
+        "permissions": {
+            "invincible_roles": [],
+            "check_discord_permissions": "both"
+        }
+    }
 }
