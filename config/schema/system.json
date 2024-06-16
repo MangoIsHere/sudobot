@@ -54,31 +54,17 @@
                 },
                 "status": {
                     "type": "string",
-                    "enum": [
-                        "online",
-                        "idle",
-                        "dnd",
-                        "invisible"
-                    ]
+                    "enum": ["online", "idle", "dnd", "invisible"]
                 },
                 "url": {
                     "type": "string"
                 },
                 "type": {
                     "type": "string",
-                    "enum": [
-                        "Competing",
-                        "Listening",
-                        "Playing",
-                        "Streaming",
-                        "Watching",
-                        "Custom"
-                    ]
+                    "enum": ["Competing", "Listening", "Playing", "Streaming", "Watching", "Custom"]
                 }
             },
-            "required": [
-                "type"
-            ],
+            "required": ["type"],
             "additionalProperties": false
         },
         "commands": {
@@ -104,15 +90,11 @@
         },
         "enable_file_filter": {
             "type": "boolean",
-            "default": false
+            "default": true
         },
         "default_permissions_mode": {
             "type": "string",
-            "enum": [
-                "ignore",
-                "overwrite",
-                "check"
-            ],
+            "enum": ["ignore", "overwrite", "check"],
             "default": "check"
         },
         "api": {
@@ -155,7 +137,7 @@
                             "format": "date-time"
                         }
                     ],
-                    "default": "2024-06-16T19:16:52.020Z"
+                    "default": "2024-06-16T19:39:54.258Z"
                 }
             },
             "additionalProperties": false,
@@ -166,10 +148,7 @@
             "properties": {
                 "default_mode": {
                     "type": "string",
-                    "enum": [
-                        "enable_all",
-                        "disable_all"
-                    ],
+                    "enum": ["enable_all", "disable_all"],
                     "default": "enable_all"
                 }
             },
@@ -220,7 +199,7 @@
             "properties": {
                 "enabled": {
                     "type": "boolean",
-                    "default": false
+                    "default": true
                 },
                 "sync_delay": {
                     "type": "integer",
